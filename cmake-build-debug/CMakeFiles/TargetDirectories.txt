@@ -1,0 +1,3 @@
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/cmake-build-debug/CMakeFiles/rebuild_cache.dir
