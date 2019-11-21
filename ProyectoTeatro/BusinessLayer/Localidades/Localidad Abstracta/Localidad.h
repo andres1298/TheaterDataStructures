@@ -5,8 +5,38 @@
 #ifndef PROYECTOINDIVIDUAL_LOCALIDAD_H
 #define PROYECTOINDIVIDUAL_LOCALIDAD_H
 
+#include "../../Reservas/Nodos/NodoReserva.h"
 
 class Localidad {
+private:
+    int cantidadReservada;
+    int cantidadMaxima;
+    int cantidadPagada;
+
+public:
+    Localidad();
+
+    Localidad(int pCantidadMaxima);
+
+    int getCantidadReservada() const;
+
+    int getCantidadMaxima() const;
+
+    int getCantidadPagada() const;
+
+    void setCantidadReservada(int cantidadReservada);
+
+    void setCantidadMaxima(int cantidadMaxima);
+
+    void setCantidadPagada(int cantidadPagada);
+
+    virtual string agregarReserva(NodoReserva* nodoReserva) = 0;
+
+    virtual void pagarReserva(int pCantidad) = 0;
+
+    virtual bool validarEspacios() = 0;
+
+    virtual string mostrarEspacios() = 0;
 
 };
 

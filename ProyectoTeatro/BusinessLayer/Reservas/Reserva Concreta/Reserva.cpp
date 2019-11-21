@@ -57,3 +57,9 @@ void Reserva::setPrecio(double precio) {
 void Reserva::setPagada(bool pagada) {
     Reserva::pagada = pagada;
 }
+
+string Reserva::mostrarInformacion() const {
+    string informacion;
+    informacion = getLocalidad();
+    return informacion;
+}

@@ -7,7 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Reserva_Concreta/Reserva.cpp.obj"
   "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp.obj"
   "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj"
-  "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.obj"
+  "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj"
   "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj"
   "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.obj"
   "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderialPreferencial.cpp.obj"

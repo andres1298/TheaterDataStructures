@@ -11,7 +11,28 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0649a284-7fff-4a32-9639-06071f60af81" name="Default Changelist" comment="" />
+    <list default="true" id="0649a284-7fff-4a32-9639-06071f60af81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/UserInterface/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/UserInterface/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProyectoIndividual.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProyectoIndividual.cbp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +43,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TtajuuBPRfRIjb040KNpFEhFkO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practicas en Clase/Bonilla_Andres_Cotidiano_ll/ListaEnteros" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -34,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andyb\Desktop\C++\ProyectoIndividual\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\Director" />
       <recent name="C:\Users\andyb\Desktop\C++\ProyectoIndividual\ProyectoTeatro" />
       <recent name="C:\Users\andyb\Desktop\C++\ProyectoIndividual\UserInterface" />
       <recent name="C:\Users\andyb\Desktop\C++\ProyectoIndividual\BusinessLayer" />
@@ -69,11 +96,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574281983207</updated>
-      <workItem from="1574281987957" duration="3268000" />
+      <workItem from="1574281987957" duration="3888000" />
+      <workItem from="1574358227783" duration="6953000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ProyectoTeatro/UserInterface/main.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

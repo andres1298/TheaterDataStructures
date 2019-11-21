@@ -32,6 +32,8 @@ public:
     void setPrecio(double precio);
 
     void setPagada(bool pagada);
+
+    string mostrarInformacion() const;
 };
 
 

@@ -128,10 +128,10 @@
 		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsZonaPreferencial.h">
 			<Option target="ProyectoIndividual"/>
 		</Unit>
-		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp">
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp">
 			<Option target="ProyectoIndividual"/>
 		</Unit>
-		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.h">
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.h">
 			<Option target="ProyectoIndividual"/>
 		</Unit>
 		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp">

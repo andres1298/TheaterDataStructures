@@ -26,7 +26,7 @@ NodoReserva::NodoReserva() {
  * =================
  */
 
-const Reserva &NodoReserva::getInformacion() const {
+const Reserva NodoReserva::getInformacion() const {
     return informacion;
 }
 

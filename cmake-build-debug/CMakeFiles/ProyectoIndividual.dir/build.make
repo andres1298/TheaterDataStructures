@@ -160,18 +160,18 @@ CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andyb\Desktop\C++\ProyectoIndividual\ProyectoTeatro\BusinessLayer\Funcion\Funcion.cpp -o CMakeFiles\ProyectoIndividual.dir\ProyectoTeatro\BusinessLayer\Funcion\Funcion.cpp.s
 
-CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.obj: CMakeFiles/ProyectoIndividual.dir/flags.make
-CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andyb\Desktop\C++\ProyectoIndividual\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoIndividual.dir\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\DirectorConstruccion.cpp.obj -c C:\Users\andyb\Desktop\C++\ProyectoIndividual\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\DirectorConstruccion.cpp
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj: CMakeFiles/ProyectoIndividual.dir/flags.make
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andyb\Desktop\C++\ProyectoIndividual\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoIndividual.dir\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\Director\DirectorConstruccion.cpp.obj -c C:\Users\andyb\Desktop\C++\ProyectoIndividual\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\Director\DirectorConstruccion.cpp
 
-CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andyb\Desktop\C++\ProyectoIndividual\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\DirectorConstruccion.cpp > CMakeFiles\ProyectoIndividual.dir\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\DirectorConstruccion.cpp.i
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andyb\Desktop\C++\ProyectoIndividual\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\Director\DirectorConstruccion.cpp > CMakeFiles\ProyectoIndividual.dir\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\Director\DirectorConstruccion.cpp.i
 
-CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andyb\Desktop\C++\ProyectoIndividual\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\DirectorConstruccion.cpp -o CMakeFiles\ProyectoIndividual.dir\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\DirectorConstruccion.cpp.s
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andyb\Desktop\C++\ProyectoIndividual\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\Director\DirectorConstruccion.cpp -o CMakeFiles\ProyectoIndividual.dir\ProyectoTeatro\BusinessLayer\Reservas\ConstructorReservas\Director\DirectorConstruccion.cpp.s
 
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj: CMakeFiles/ProyectoIndividual.dir/flags.make
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores\ Concretos/ConsGraderiaGeneral.cpp
@@ -222,7 +222,7 @@ ProyectoIndividual_OBJECTS = \
 "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Reserva_Concreta/Reserva.cpp.obj" \
 "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp.obj" \
 "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj" \
-"CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.obj" \
+"CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj" \
 "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj" \
 "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.obj" \
 "CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderialPreferencial.cpp.obj"
@@ -238,7 +238,7 @@ ProyectoIndividual.exe: CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/Busines
 ProyectoIndividual.exe: CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Reserva_Concreta/Reserva.cpp.obj
 ProyectoIndividual.exe: CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp.obj
 ProyectoIndividual.exe: CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj
-ProyectoIndividual.exe: CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.obj
+ProyectoIndividual.exe: CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj
 ProyectoIndividual.exe: CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj
 ProyectoIndividual.exe: CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.obj
 ProyectoIndividual.exe: CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderialPreferencial.cpp.obj

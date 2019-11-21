@@ -5,19 +5,38 @@
 #ifndef PROYECTOINDIVIDUAL_GRADERIAGENERAL_H
 #define PROYECTOINDIVIDUAL_GRADERIAGENERAL_H
 
-
+#include <string>
 #include "../../Reservas/Nodos/NodoReserva.h"
+#include "../Localidad Abstracta/Localidad.h"
 
-class GraderiaGeneral {
+using namespace std;
+
+
+class GraderiaGeneral : public Localidad{
 private:
     NodoReserva* cabeza;
+    NodoReserva* cola;
 
 public:
     GraderiaGeneral();
 
+    GraderiaGeneral(int pCantidadMaxima);
+
     NodoReserva *getCabeza() const;
 
+    NodoReserva *getCola() const;
+
     void setCabeza(NodoReserva *cabeza);
+
+    void setCola(NodoReserva *cola);
+
+    string agregarReserva(NodoReserva* nodoReserva) override;
+
+    void pagarReserva(int pCantidad) override;
+
+    bool validarEspacios() override;
+
+    string mostrarEspacios() override;
 };
 
 

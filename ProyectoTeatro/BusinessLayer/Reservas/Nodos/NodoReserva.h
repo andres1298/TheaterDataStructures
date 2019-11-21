@@ -19,7 +19,7 @@ public:
 
     NodoReserva();
 
-    const Reserva &getInformacion() const;
+    const Reserva getInformacion() const;
 
     NodoReserva *getSiguiente() const;
 

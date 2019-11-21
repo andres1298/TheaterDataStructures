@@ -338,32 +338,32 @@ ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concreto
 	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.s
 .PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.s
 
-ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.obj: ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.obj
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.obj: ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj
 
-.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.obj
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.obj
 
 # target to build an object file
-ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.obj:
-	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.obj
-.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.obj
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj
 
-ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.i: ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.i
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.i: ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.i
 
-.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.i
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.i
 
 # target to preprocess a source file
-ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.i:
-	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.i
-.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.i
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.i:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.i
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.i
 
-ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.s: ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.s
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.s: ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.s
 
-.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.s
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.s
 
 # target to generate assembly for a file
-ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.s:
-	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.s
-.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp.s
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.s:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.s
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.s
 
 ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.obj: ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp.obj
 
@@ -479,9 +479,9 @@ help:
 	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.obj
 	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.i
 	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.s
-	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.obj
-	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.i
-	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.s
+	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.obj
+	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.i
+	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.s
 	@echo ... ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.obj
 	@echo ... ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.i
 	@echo ... ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.s

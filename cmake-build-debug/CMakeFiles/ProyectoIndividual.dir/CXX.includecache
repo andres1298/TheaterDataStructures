@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h
+../../Reservas/Nodos/NodoReserva.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
+
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.cpp
+GraderiaGeneral.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h
+
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h
+string
+-
+../../Reservas/Nodos/NodoReserva.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
+../Localidad Abstracta/Localidad.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h
+
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
+../Reserva Concreta/Reserva.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h
+
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h
+string
+-
+
