@@ -13,25 +13,21 @@
   <component name="ChangeListManager">
     <list default="true" id="0649a284-7fff-4a32-9639-06071f60af81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/DirectorConstruccion.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoTeatro/UserInterface/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/UserInterface/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProyectoIndividual.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProyectoIndividual.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProyectoIndividual.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProyectoIndividual.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +94,7 @@
       <updated>1574281983207</updated>
       <workItem from="1574281987957" duration="3888000" />
       <workItem from="1574358227783" duration="6953000" />
+      <workItem from="1574454886786" duration="3018000" />
     </task>
     <servers />
   </component>
@@ -116,16 +113,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ProyectoTeatro/UserInterface/main.cpp</url>
-          <line>18</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

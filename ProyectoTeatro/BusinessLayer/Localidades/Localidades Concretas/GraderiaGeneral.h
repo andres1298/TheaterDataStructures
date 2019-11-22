@@ -30,13 +30,15 @@ public:
 
     void setCola(NodoReserva *cola);
 
-    string agregarReserva(NodoReserva* nodoReserva) override;
+    string agregarReserva(Reserva pReserva) override;
 
-    void pagarReserva(int pCantidad) override;
+    string pagarReserva() override;
 
     bool validarEspacios() override;
 
     string mostrarEspacios() override;
+
+    bool validarPagoReserva() override;
 };
 
 

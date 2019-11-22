@@ -30,13 +30,15 @@ public:
 
     void setCantidadPagada(int cantidadPagada);
 
-    virtual string agregarReserva(NodoReserva* nodoReserva) = 0;
+    virtual string agregarReserva(Reserva pReserva) = 0;
 
-    virtual void pagarReserva(int pCantidad) = 0;
+    virtual string pagarReserva() = 0;
+
+    virtual string mostrarEspacios() = 0;
 
     virtual bool validarEspacios() = 0;
 
-    virtual string mostrarEspacios() = 0;
+    virtual bool validarPagoReserva() = 0;
 
 };
 

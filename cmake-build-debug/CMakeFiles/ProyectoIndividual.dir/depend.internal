@@ -16,6 +16,7 @@ CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Local
  C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
  C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj
+ C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h
  C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.cpp
  C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h
  C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
@@ -46,6 +47,7 @@ CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Reserva_
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj
  C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h
  C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h
+ C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h
  C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
  C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h
  C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/UserInterface/main.cpp

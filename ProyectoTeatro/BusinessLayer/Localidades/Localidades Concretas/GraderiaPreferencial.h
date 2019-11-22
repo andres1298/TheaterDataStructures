@@ -7,8 +7,9 @@
 
 
 #include "../../Reservas/Nodos/NodoReserva.h"
+#include "../Localidad Abstracta/Localidad.h"
 
-class GraderiaPreferencial {
+class GraderiaPreferencial : public Localidad{
 
 private:
     NodoReserva* tope;
@@ -16,9 +17,21 @@ private:
 public:
     GraderiaPreferencial();
 
+    GraderiaPreferencial(int pCantidad);
+
     NodoReserva *getTope() const;
 
     void setTope(NodoReserva *tope);
+
+    string agregarReserva(Reserva pReserva) override;
+
+    string pagarReserva() override;
+
+    bool validarEspacios() override;
+
+    string mostrarEspacios() override;
+
+    bool validarPagoReserva() override;
 };
 
 

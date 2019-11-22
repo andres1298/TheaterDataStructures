@@ -10,13 +10,15 @@ C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Local
 ../../Reservas/Nodos/NodoReserva.h
 C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
 
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.cpp
-GraderiaGeneral.h
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h
-
 C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h
 string
 -
+../../Reservas/Nodos/NodoReserva.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
+../Localidad Abstracta/Localidad.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h
+
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h
 ../../Reservas/Nodos/NodoReserva.h
 C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
 ../Localidad Abstracta/Localidad.h
@@ -29,4 +31,14 @@ C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reser
 C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h
 string
 -
+
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/UserInterface/main.cpp
+iostream
+-
+../BusinessLayer/Reservas/Reserva Concreta/Reserva.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h
+../BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h
+../BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h
 

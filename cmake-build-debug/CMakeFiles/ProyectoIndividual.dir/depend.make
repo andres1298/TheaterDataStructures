@@ -15,6 +15,7 @@ CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Local
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaPreferencial.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaPreferencial.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
@@ -45,6 +46,7 @@ CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Reserva_
 
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaGeneral.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaPreferencial.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/UserInterface/main.cpp
