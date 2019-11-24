@@ -149,6 +149,87 @@ ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.s:
 	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.s
 .PHONY : ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.s
 
+ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.obj: ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.obj
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.obj
+
+# target to build an object file
+ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.obj
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.obj
+
+ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.i: ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.i
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.i
+
+# target to preprocess a source file
+ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.i:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.i
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.i
+
+ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.s: ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.s
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.s
+
+# target to generate assembly for a file
+ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.s:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.s
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.s
+
+ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.obj: ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.obj
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.obj
+
+# target to build an object file
+ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.obj
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.obj
+
+ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.i: ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.i
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.i
+
+# target to preprocess a source file
+ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.i:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.i
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.i
+
+ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.s: ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.s
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.s
+
+# target to generate assembly for a file
+ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.s:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.s
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.s
+
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.obj: ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.obj
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.obj
+
+# target to build an object file
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.obj
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.obj
+
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.i: ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.i
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.i
+
+# target to preprocess a source file
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.i:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.i
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.i
+
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.s: ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.s
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.s
+
+# target to generate assembly for a file
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.s:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.s
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.s
+
 ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.obj: ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.obj
 
 .PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.obj
@@ -175,6 +256,33 @@ ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.s: Proyec
 ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.s:
 	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.s
 .PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.s
+
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.obj: ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.obj
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.obj
+
+# target to build an object file
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.obj
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.obj
+
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.i: ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.i
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.i
+
+# target to preprocess a source file
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.i:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.i
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.i
+
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.s: ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.s
+
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.s
+
+# target to generate assembly for a file
+ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.s:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.s
+.PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.s
 
 ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.obj: ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj
 
@@ -256,6 +364,33 @@ ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.
 ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.s:
 	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.s
 .PHONY : ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.s
+
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.obj: ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.obj
+
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.obj
+
+# target to build an object file
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.obj
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.obj
+
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.i: ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.i
+
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.i
+
+# target to preprocess a source file
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.i:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.i
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.i
+
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.s: ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.s
+
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.s
+
+# target to generate assembly for a file
+ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.s:
+	$(MAKE) -f CMakeFiles\ProyectoIndividual.dir\build.make CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.s
+.PHONY : ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.s
 
 ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.obj: ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj
 
@@ -458,9 +593,21 @@ help:
 	@echo ... ProyectoTeatro/BusinessLayer/Funcion/Funcion.obj
 	@echo ... ProyectoTeatro/BusinessLayer/Funcion/Funcion.i
 	@echo ... ProyectoTeatro/BusinessLayer/Funcion/Funcion.s
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.obj
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.i
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.s
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.obj
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.i
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.s
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.obj
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.i
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.s
 	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.obj
 	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.i
 	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.s
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.obj
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.i
+	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.s
 	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.obj
 	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.i
 	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.s
@@ -470,6 +617,9 @@ help:
 	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.obj
 	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.i
 	@echo ... ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.s
+	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.obj
+	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.i
+	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.s
 	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.obj
 	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.i
 	@echo ... ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.s

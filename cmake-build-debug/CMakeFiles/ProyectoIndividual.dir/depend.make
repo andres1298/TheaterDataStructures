@@ -3,39 +3,94 @@
 
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Funcion/Funcion.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Cola\ Espera\ Abstracta/ColaEsperaAbstracta.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Colas\ Espera\ Concretas/ColaEspera.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Graderia.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Numerado.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaGeneral.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaPreferencial.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/ZonaPreferencial.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor\ Abstracto/ConstructorAbstracto.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores\ Concretos/ConsGraderiaGeneral.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores\ Concretos/ConsGraderialPreferencial.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores\ Concretos/ConsZonaPreferencial.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
+
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Cola\ Espera\ Abstracta/ColaEsperaAbstracta.cpp
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Cola\ Espera\ Abstracta/ColaEsperaAbstracta.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Cola_Espera_Abstracta/ColaEsperaAbstracta.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
+
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Cola\ Espera\ Abstracta/ColaEsperaAbstracta.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Colas\ Espera\ Concretas/ColaEspera.cpp
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Colas\ Espera\ Concretas/ColaEspera.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Colas_Espera_Concretas/ColaEspera.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
+
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Graderia.cpp
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Graderia.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Numerado.cpp
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Numerado.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
+
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Graderia.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaGeneral.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaGeneral.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Graderia.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaPreferencial.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaPreferencial.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Numerado.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/ZonaPreferencial.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/ZonaPreferencial.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor\ Abstracto/ConstructorAbstracto.cpp
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor\ Abstracto/ConstructorAbstracto.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor_Abstracto/ConstructorAbstracto.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
+
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor\ Abstracto/ConstructorAbstracto.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores\ Concretos/ConsGraderiaGeneral.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores\ Concretos/ConsGraderiaGeneral.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderialPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor\ Abstracto/ConstructorAbstracto.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderialPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores\ Concretos/ConsGraderialPreferencial.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderialPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores\ Concretos/ConsGraderialPreferencial.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderialPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor\ Abstracto/ConstructorAbstracto.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores\ Concretos/ConsZonaPreferencial.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores\ Concretos/ConsZonaPreferencial.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor\ Abstracto/ConstructorAbstracto.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
@@ -44,9 +99,17 @@ CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Nodos/No
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Reserva_Concreta/Reserva.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.cpp
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/Reserva_Concreta/Reserva.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Funcion/Funcion.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Cola\ Espera\ Abstracta/ColaEsperaAbstracta.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Colas\ Espera\ Concretas/ColaEspera.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Graderia.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Localidad.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidad\ Abstracta/Numerado.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaGeneral.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/GraderiaPreferencial.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Localidades/Localidades\ Concretas/ZonaPreferencial.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor\ Abstracto/ConstructorAbstracto.h
+CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Nodos/NodoReserva.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/BusinessLayer/Reservas/Reserva\ Concreta/Reserva.h
 CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj: ../ProyectoTeatro/UserInterface/main.cpp

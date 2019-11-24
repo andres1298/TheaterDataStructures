@@ -10,11 +10,11 @@
  * =================
  */
 
-GraderiaPreferencial::GraderiaPreferencial() : Localidad(){
+GraderiaPreferencial::GraderiaPreferencial() : Graderia(){
     setTope(nullptr);
 }
 
-GraderiaPreferencial::GraderiaPreferencial(int pCantidad) : Localidad(pCantidad) {
+GraderiaPreferencial::GraderiaPreferencial(int pCantidad) : Graderia(pCantidad) {
     setTope(nullptr);
 }
 

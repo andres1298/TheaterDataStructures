@@ -3,3 +3,17 @@
 //
 
 #include "ConsZonaPreferencial.h"
+
+ConsZonaPreferencial::ConsZonaPreferencial() {}
+
+void ConsZonaPreferencial::construirLocalidad() {
+    getReserva().setLocalidad("Zona Preferencial");
+}
+
+void ConsZonaPreferencial::construirPrecio() {
+    getReserva().setPrecio(7000);
+}
+
+void ConsZonaPreferencial::construirEstado() {
+    getReserva().setPagada(false);
+}

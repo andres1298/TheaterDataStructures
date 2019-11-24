@@ -7,9 +7,9 @@
 
 
 #include "../../Reservas/Nodos/NodoReserva.h"
-#include "../Localidad Abstracta/Localidad.h"
+#include "../Localidad Abstracta/Graderia.h"
 
-class GraderiaPreferencial : public Localidad{
+class GraderiaPreferencial : public Graderia{
 
 private:
     NodoReserva* tope;

@@ -7,12 +7,12 @@
 
 #include <string>
 #include "../../Reservas/Nodos/NodoReserva.h"
-#include "../Localidad Abstracta/Localidad.h"
+#include "../Localidad Abstracta/Graderia.h"
 
 using namespace std;
 
 
-class GraderiaGeneral : public Localidad{
+class GraderiaGeneral : public Graderia{
 private:
     NodoReserva* cabeza;
     NodoReserva* cola;

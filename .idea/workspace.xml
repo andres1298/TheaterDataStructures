@@ -12,21 +12,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0649a284-7fff-4a32-9639-06071f60af81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Cola Espera Abstracta/ColaEsperaAbstracta.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Cola Espera Abstracta/ColaEsperaAbstracta.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Colas Espera Concretas/ColaEspera.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Colas Espera Concretas/ColaEspera.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Graderia.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Graderia.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Numerado.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Numerado.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor Abstracto/ConstructorAbstracto.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor Abstracto/ConstructorAbstracto.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Graderia.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Numerado.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Funcion/Funcion.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Funcion/Funcion.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/ZonaPreferencial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/ZonaPreferencial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/ZonaPreferencial.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/ZonaPreferencial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderiaGeneral.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderiaGeneral.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderiaGeneral.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderiaGeneral.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderialPreferencial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderialPreferencial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderialPreferencial.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderialPreferencial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsZonaPreferencial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsZonaPreferencial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsZonaPreferencial.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsZonaPreferencial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoTeatro/UserInterface/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoTeatro/UserInterface/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeatroEstructuras.png" beforeDir="false" afterPath="$PROJECT_DIR$/TeatroEstructuras.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeatroEstructuras.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TeatroEstructuras.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidad_Abstracta/Localidad.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaGeneral.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/GraderiaPreferencial.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Localidades/Localidades_Concretas/ZonaPreferencial.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderiaGeneral.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderialPreferencial.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsGraderialPreferencial.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores_Concretos/ConsZonaPreferencial.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/ProyectoTeatro/UserInterface/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProyectoIndividual.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProyectoIndividual.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProyectoIndividual.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProyectoIndividual.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProyectoIndividual.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +89,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practicas en Clase/Bonilla_Andres_Cotidiano_ll/ListaEnteros" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,6 +138,9 @@
       <workItem from="1574281987957" duration="3888000" />
       <workItem from="1574358227783" duration="6953000" />
       <workItem from="1574454886786" duration="3018000" />
+      <workItem from="1574531045289" duration="21204000" />
+      <workItem from="1574565885984" duration="352000" />
+      <workItem from="1574566263534" duration="6487000" />
     </task>
     <servers />
   </component>
@@ -113,5 +159,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="funcion" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

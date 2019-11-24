@@ -10,12 +10,12 @@
  * =================
  */
 
-GraderiaGeneral::GraderiaGeneral() : Localidad(){
+GraderiaGeneral::GraderiaGeneral() : Graderia(){
     setCabeza(nullptr);
     setCola(nullptr);
 }
 
-GraderiaGeneral::GraderiaGeneral(int pCantidadMaxima) : Localidad(pCantidadMaxima) {
+GraderiaGeneral::GraderiaGeneral(int pCantidadMaxima) : Graderia(pCantidadMaxima) {
     setCabeza(nullptr);
     setCola(nullptr);
 }

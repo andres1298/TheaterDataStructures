@@ -6,8 +6,17 @@
 #define PROYECTOINDIVIDUAL_CONSGRADERIAGENERAL_H
 
 
-class ConsGraderiaGeneral {
+#include "../Constructor Abstracto/ConstructorAbstracto.h"
 
+class ConsGraderiaGeneral : public ConstructorAbstracto{
+public:
+    ConsGraderiaGeneral();
+
+    void construirLocalidad() override;
+
+    void construirPrecio() override;
+
+    void construirEstado() override;
 };
 
 

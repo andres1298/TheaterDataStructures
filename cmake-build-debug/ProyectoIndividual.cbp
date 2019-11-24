@@ -86,10 +86,34 @@
 		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Funcion/Funcion.h">
 			<Option target="ProyectoIndividual"/>
 		</Unit>
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Cola Espera Abstracta/ColaEsperaAbstracta.cpp">
+			<Option target="ProyectoIndividual"/>
+		</Unit>
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Cola Espera Abstracta/ColaEsperaAbstracta.h">
+			<Option target="ProyectoIndividual"/>
+		</Unit>
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Colas Espera Concretas/ColaEspera.cpp">
+			<Option target="ProyectoIndividual"/>
+		</Unit>
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Colas Espera Concretas/ColaEspera.h">
+			<Option target="ProyectoIndividual"/>
+		</Unit>
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Graderia.cpp">
+			<Option target="ProyectoIndividual"/>
+		</Unit>
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Graderia.h">
+			<Option target="ProyectoIndividual"/>
+		</Unit>
 		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.cpp">
 			<Option target="ProyectoIndividual"/>
 		</Unit>
 		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Localidad.h">
+			<Option target="ProyectoIndividual"/>
+		</Unit>
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Numerado.cpp">
+			<Option target="ProyectoIndividual"/>
+		</Unit>
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidad Abstracta/Numerado.h">
 			<Option target="ProyectoIndividual"/>
 		</Unit>
 		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.cpp">
@@ -108,6 +132,12 @@
 			<Option target="ProyectoIndividual"/>
 		</Unit>
 		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/ZonaPreferencial.h">
+			<Option target="ProyectoIndividual"/>
+		</Unit>
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor Abstracto/ConstructorAbstracto.cpp">
+			<Option target="ProyectoIndividual"/>
+		</Unit>
+		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor Abstracto/ConstructorAbstracto.h">
 			<Option target="ProyectoIndividual"/>
 		</Unit>
 		<Unit filename="C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderiaGeneral.cpp">

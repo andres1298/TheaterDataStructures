@@ -6,8 +6,13 @@
 #define PROYECTOINDIVIDUAL_DIRECTORCONSTRUCCION_H
 
 
-class DirectorConstruccion {
+#include "../Constructor Abstracto/ConstructorAbstracto.h"
 
+class DirectorConstruccion {
+public:
+    DirectorConstruccion();
+
+    void construirReserva(ConstructorAbstracto *constructor);
 };
 
 

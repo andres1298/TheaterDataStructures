@@ -6,8 +6,17 @@
 #define PROYECTOINDIVIDUAL_CONSGRADERIALPREFERENCIAL_H
 
 
-class ConsGraderialPreferencial {
+#include "../Constructor Abstracto/ConstructorAbstracto.h"
 
+class ConsGraderialPreferencial : public ConstructorAbstracto {
+public:
+    ConsGraderialPreferencial();
+
+    void construirLocalidad() override;
+
+    void construirPrecio() override;
+
+    void construirEstado() override;
 };
 
 

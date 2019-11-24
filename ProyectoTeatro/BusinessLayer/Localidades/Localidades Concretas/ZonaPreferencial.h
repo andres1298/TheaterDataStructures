@@ -7,13 +7,38 @@
 
 
 #include "../../Reservas/Reserva Concreta/Reserva.h"
+#include "../Localidad Abstracta/Numerado.h"
 
-class ZonaPreferencial {
+class ZonaPreferencial : public Numerado{
+
 
 private:
     Reserva reservas[10];
 
 public:
+    ZonaPreferencial();
+
+    ZonaPreferencial(int pCantidadMaxima);
+
+    const Reserva *getReservas() const;
+
+    string mostrarEspacios() override;
+
+    bool validarEspacios() override;
+
+    bool validarPagoReserva(int pAsiento) override;
+
+    void llenarReservas();
+
+    string mostrarEspaciosDisponibles();
+
+    bool validarAsiento(int pAsiento);
+
+    string agregarReserva(Reserva pReserva, int pAsiento) override;
+
+    string pagarReserva(int pAsiento) override;
+
+
 
 };
 

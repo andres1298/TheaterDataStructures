@@ -6,8 +6,17 @@
 #define PROYECTOINDIVIDUAL_CONSZONAPREFERENCIAL_H
 
 
-class ConsZonaPreferencial {
+#include "../Constructor Abstracto/ConstructorAbstracto.h"
 
+class ConsZonaPreferencial : public ConstructorAbstracto{
+public:
+    ConsZonaPreferencial();
+
+    void construirLocalidad() override;
+
+    void construirPrecio() override;
+
+    void construirEstado() override;
 };
 
 

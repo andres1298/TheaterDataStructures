@@ -3,3 +3,18 @@
 //
 
 #include "ConsGraderiaGeneral.h"
+
+
+ConsGraderiaGeneral::ConsGraderiaGeneral() {}
+
+void ConsGraderiaGeneral::construirLocalidad() {
+    getReserva().setLocalidad("Graderia General");
+}
+
+void ConsGraderiaGeneral::construirPrecio() {
+    getReserva().setPrecio(4000);
+}
+
+void ConsGraderiaGeneral::construirEstado() {
+    getReserva().setPagada(false);
+}
