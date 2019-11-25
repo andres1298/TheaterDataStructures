@@ -17,6 +17,7 @@ private:
     NodoReserva* cabeza;
     NodoReserva* cola;
 
+
 public:
     GraderiaGeneral();
 
@@ -39,6 +40,10 @@ public:
     string mostrarEspacios() override;
 
     bool validarPagoReserva() override;
+
+    string liberarReservaciones() override;
+
+    string liberarColaEspera() override;
 };
 
 

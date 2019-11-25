@@ -21,15 +21,18 @@ string ColaEspera::agregarReserva(Reserva reserva) {
     return "Reserva agregada a la cola de espera";
 }
 
-string ColaEspera::removerReserva() {
+Reserva ColaEspera::removerReserva() {
     if(getFrente() == nullptr && getFinal() == nullptr){
-        return "Cola de espera vacia. No hay reservas pendientes";
+        return Reserva();
     }
     else{
         NodoReserva* auxiliar = getFrente();
-        setFrente(getFrente()->getSiguiente());
+        setFrente( auxiliar->getSiguiente() );
         setCantidadReservas( getCantidadReservas() - 1);
-        delete auxiliar;
-        return "Reserva removida de la lista de espera";
+
+        if(getFrente() == nullptr) setFinal(nullptr);
+
+        return auxiliar->getInformacion();
     }
+
 }

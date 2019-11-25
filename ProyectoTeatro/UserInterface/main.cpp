@@ -8,7 +8,7 @@
 
 using namespace std;
 
-Funcion funcion = Funcion("NullPo");
+Funcion funcion = Funcion("NullPo", 10, 50, 50);
 
 void mostrarMenuPrincipal(){
     cout << "\n==========================" << endl;
@@ -93,27 +93,63 @@ void procesarMenuPrincipal(int pOpcion){
 
 
 int main() {
-    int opcion = 0;
+    int opcion = 0;/*
     while( opcion != 6){
         mostrarMenuPrincipal();
         opcion = obtenerOpcion();
         procesarMenuPrincipal(opcion);
-        
+
+    }*/
+    Reserva reserva1 = Reserva("Preferencial 1", 5000, false);
+    Reserva reserva2 = Reserva("Preferencial 2", 7000, false);
+
+    for(int i = 1; i <= 10; i++){
+        cout << funcion.getZonaPreferencial().agregarReserva(reserva1,i) << endl;
+        if(i % 2 == 0){
+            cout << funcion.getZonaPreferencial().pagarReserva(i) << endl;
+        }
     }
 
+    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
+
+    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
+
+    cout << funcion.liberarReservaciones() << endl;
 
 
     return 0;
 }
 
 /*Reserva reserva1 = Reserva("Preferencial 1", 5000, false);
-    Reserva reserva2 = Reserva("Preferencial 2", 5000, false);
-    Reserva reserva3 = Reserva("Preferencial 3", 5000, false);
 
-   Funcion funcion = Funcion("Gran funcion");
-   cout << funcion.getNombreObra() << endl;
-    cout << funcion.getColaEsperaZonaPreferencial().agregarReserva(reserva1) << endl;
-    cout << funcion.getColaEsperaZonaPreferencial().agregarReserva(reserva2) << endl;
-    cout << funcion.getColaEsperaZonaPreferencial().agregarReserva(reserva3) << endl;
-    cout << funcion.getColaEsperaGraderiaPreferencial().agregarReserva(reserva1) << endl;
-   cout << funcion.getColaEsperaGraderiaGeneral().agregarReserva(reserva1) << endl;*/
+    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
+    cout << "\n" << endl;
+    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
+    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
+    cout << "\n" << endl;
+    for(int i = 1; i <= 10; i++){
+        cout << funcion.getZonaPreferencial().agregarReserva(reserva1,i) << endl;
+    }
+    cout << "\n" << endl;
+    cout << funcion.getZonaPreferencial().agregarReserva(reserva1,10) << endl;
+
+    cout << funcion.getZonaPreferencial().liberarReservaciones() << endl;
+
+    for(int i = 1; i <= 10; i++){
+        cout << funcion.getZonaPreferencial().agregarReserva(reserva1,i) << endl;
+        if(i % 2 == 0){
+            funcion.getZonaPreferencial().pagarReserva(i);
+        }
+    }
+    */

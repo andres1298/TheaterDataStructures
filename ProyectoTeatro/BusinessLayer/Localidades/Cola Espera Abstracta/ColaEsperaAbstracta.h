@@ -34,7 +34,7 @@ public:
 
     virtual string agregarReserva(Reserva reserva) = 0;
 
-    virtual string removerReserva() = 0;
+    virtual Reserva removerReserva() = 0;
 };
 
 

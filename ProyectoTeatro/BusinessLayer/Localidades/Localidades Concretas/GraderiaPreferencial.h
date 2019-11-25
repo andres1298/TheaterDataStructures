@@ -32,6 +32,10 @@ public:
     string mostrarEspacios() override;
 
     bool validarPagoReserva() override;
+
+    string liberarReservaciones() override;
+
+    string liberarColaEspera() override;
 };
 
 

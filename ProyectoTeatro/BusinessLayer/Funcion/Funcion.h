@@ -22,31 +22,23 @@ private:
     GraderiaPreferencial graderiaPreferencial;
     GraderiaGeneral graderiaGeneral;
     DirectorConstruccion directorReservas;
-    ColaEspera colaEsperaZonaPreferencial;
-    ColaEspera colaEsperaGraderiaPreferencial;
-    ColaEspera colaEsperaGraderiaGeneral;
     bool haIniciado;
 
 public:
-    Funcion(string pNombreObra);
+    Funcion(string pNombreObra, int pCantidadZonaPreferencial, int pCantidadGraderiaPreferencial,
+            int pCantidadGraderiaGeneral);
 
     Funcion();
 
     const string &getNombreObra() const;
 
-    const ZonaPreferencial &getZonaPreferencial() const;
+     ZonaPreferencial &getZonaPreferencial() ;
 
-    const GraderiaPreferencial &getGraderiaPreferencial() const;
+     GraderiaPreferencial &getGraderiaPreferencial() ;
 
-    const GraderiaGeneral &getGraderiaGeneral() const;
+    GraderiaGeneral & getGraderiaGeneral() ;
 
     DirectorConstruccion &getDirectorReservas();
-
-     ColaEspera &getColaEsperaZonaPreferencial();
-
-     ColaEspera &getColaEsperaGraderiaPreferencial() ;
-
-     ColaEspera &getColaEsperaGraderiaGeneral() ;
 
     bool isHaIniciado() const;
 
@@ -60,13 +52,9 @@ public:
 
     void setDirectorReservas(const DirectorConstruccion &directorReservas);
 
-    void setColaEsperaZonaPreferencial(const ColaEspera &colaEsperaZonaPreferencial);
-
-    void setColaEsperaGraderiaPreferencial(const ColaEspera &colaEsperaGraderiaPreferencial);
-
-    void setColaEsperaGraderiaGeneral(const ColaEspera &colaEsperaGraderiaGeneral);
-
     void setHaIniciado(bool haIniciado);
+
+    string liberarReservaciones();
 
     Reserva procesarSolicitudReserva(int pOpcion);
 

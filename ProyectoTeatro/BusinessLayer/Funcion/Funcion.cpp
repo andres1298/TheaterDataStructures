@@ -13,15 +13,13 @@
  * =================
  */
 
-Funcion::Funcion(string pNombreObra) {
+Funcion::Funcion(string pNombreObra, int pCantidadZonaPreferencial, int pCantidadGraderiaPreferencial,
+                 int pCantidadGraderiaGeneral) {
     setNombreObra(pNombreObra);
-    setZonaPreferencial(ZonaPreferencial(10));
-    setGraderiaPreferencial(GraderiaPreferencial(50));
-    setGraderiaGeneral(GraderiaGeneral(50));
+    setZonaPreferencial(ZonaPreferencial(pCantidadZonaPreferencial));
+    setGraderiaPreferencial(GraderiaPreferencial(pCantidadGraderiaPreferencial));
+    setGraderiaGeneral(GraderiaGeneral(pCantidadGraderiaGeneral));
     setDirectorReservas(DirectorConstruccion());
-    setColaEsperaZonaPreferencial(ColaEspera());
-    setColaEsperaGraderiaPreferencial(ColaEspera());
-    setColaEsperaGraderiaGeneral(ColaEspera());
 }
 
 Funcion::Funcion() {
@@ -30,9 +28,6 @@ Funcion::Funcion() {
     setGraderiaPreferencial(GraderiaPreferencial(0));
     setGraderiaGeneral(GraderiaGeneral(0));
     setDirectorReservas(DirectorConstruccion());
-    setColaEsperaZonaPreferencial(ColaEspera());
-    setColaEsperaGraderiaPreferencial(ColaEspera());
-    setColaEsperaGraderiaGeneral(ColaEspera());
 }
 
 /*
@@ -45,32 +40,20 @@ const string &Funcion::getNombreObra() const {
     return nombreObra;
 }
 
-const ZonaPreferencial &Funcion::getZonaPreferencial() const {
+ ZonaPreferencial &Funcion::getZonaPreferencial()  {
     return zonaPreferencial;
 }
 
-const GraderiaPreferencial &Funcion::getGraderiaPreferencial() const {
+ GraderiaPreferencial &Funcion::getGraderiaPreferencial()  {
     return graderiaPreferencial;
 }
 
-const GraderiaGeneral &Funcion::getGraderiaGeneral() const {
+GraderiaGeneral &Funcion::getGraderiaGeneral()  {
     return graderiaGeneral;
 }
 
 DirectorConstruccion &Funcion::getDirectorReservas() {
     return directorReservas;
-}
-
- ColaEspera &Funcion::getColaEsperaZonaPreferencial() {
-    return colaEsperaZonaPreferencial;
-}
-
- ColaEspera &Funcion::getColaEsperaGraderiaPreferencial()  {
-    return colaEsperaGraderiaPreferencial;
-}
-
- ColaEspera &Funcion::getColaEsperaGraderiaGeneral()  {
-    return colaEsperaGraderiaGeneral;
 }
 
 bool Funcion::isHaIniciado() const {
@@ -101,18 +84,6 @@ void Funcion::setGraderiaGeneral(const GraderiaGeneral &graderiaGeneral) {
 
 void Funcion::setDirectorReservas(const DirectorConstruccion &directorReservas) {
     Funcion::directorReservas = directorReservas;
-}
-
-void Funcion::setColaEsperaZonaPreferencial(const ColaEspera &colaEsperaZonaPreferencial) {
-    Funcion::colaEsperaZonaPreferencial = colaEsperaZonaPreferencial;
-}
-
-void Funcion::setColaEsperaGraderiaPreferencial(const ColaEspera &colaEsperaGraderiaPreferencial) {
-    Funcion::colaEsperaGraderiaPreferencial = colaEsperaGraderiaPreferencial;
-}
-
-void Funcion::setColaEsperaGraderiaGeneral(const ColaEspera &colaEsperaGraderiaGeneral) {
-    Funcion::colaEsperaGraderiaGeneral = colaEsperaGraderiaGeneral;
 }
 
 void Funcion::setHaIniciado(bool haIniciado) {
@@ -158,14 +129,32 @@ Reserva Funcion::procesarSolicitudReserva(int pOpcion) {
             reserva = Reserva();
             break;
     }
+
     return reserva;
 }
 
 /*
  * =================
- * FUNCIONES ESPECIFICAS
+ * LIBERAR RESERVACIONES
  * =================
  */
+
+string Funcion::liberarReservaciones() {
+    string informacion;
+    informacion.append("\nInformacion de reservas liberadas\n");
+    informacion.append("==========================================\n");
+    informacion.append(getZonaPreferencial().liberarReservaciones() + "\n");
+    informacion.append(getGraderiaPreferencial().liberarReservaciones() + "\n");
+    informacion.append(getGraderiaGeneral().liberarReservaciones() + "\n");
+
+    informacion.append("\nInformacion de reservas en cola\n");
+    informacion.append("==========================================\n");
+    informacion.append(getZonaPreferencial().liberarColaEspera() + "\n");
+    informacion.append(getGraderiaPreferencial().liberarColaEspera() + "\n");
+    informacion.append(getGraderiaGeneral().liberarColaEspera() + "\n");
+    return informacion;
+}
+
 
 
 

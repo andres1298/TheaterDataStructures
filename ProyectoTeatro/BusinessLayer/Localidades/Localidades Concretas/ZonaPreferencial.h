@@ -38,6 +38,9 @@ public:
 
     string pagarReserva(int pAsiento) override;
 
+    string liberarReservaciones() override;
+
+    string liberarColaEspera() override;
 
 
 };

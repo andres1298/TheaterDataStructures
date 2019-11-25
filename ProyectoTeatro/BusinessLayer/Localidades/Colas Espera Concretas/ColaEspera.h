@@ -14,7 +14,7 @@ public:
 
     string agregarReserva(Reserva reserva) override;
 
-    string removerReserva() override;
+    Reserva removerReserva() override;
 };
 
 
