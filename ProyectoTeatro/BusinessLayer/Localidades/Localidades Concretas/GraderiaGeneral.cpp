@@ -122,6 +122,24 @@ bool GraderiaGeneral::validarEspacios() {
     return getCantidadReservada() + 1 + getCantidadPagada() <= getCantidadMaxima();
 }
 
+string GraderiaGeneral::obtenerEstadisticas() {
+    string informacion;
+    int recaudacionTotal = 0, espaciosLibres = 0, espaciosPagados = 0;
+
+    recaudacionTotal = getCantidadPagada() * 4000;
+    espaciosLibres = getCantidadMaxima() - getCantidadPagada();
+    espaciosPagados = getCantidadPagada();
+
+    informacion.append("\n    Graderia General ");
+    informacion.append("\n============================");
+    informacion.append("\nEspacios disponibles: " + to_string(espaciosLibres));
+    informacion.append("\nEspacios pagados: " + to_string(espaciosPagados));
+    informacion.append("\nRecaudacion: " + to_string(recaudacionTotal));
+    informacion.append("\n============================");
+
+    return informacion;
+}
+
 /*
  * =================
  * LIBERAR RESERVACIONES

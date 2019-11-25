@@ -24,6 +24,8 @@ public:
 
     string mostrarEspacios() override;
 
+    string mostrarReservasPorPagar();
+
     bool validarEspacios() override;
 
     bool validarPagoReserva(int pAsiento) override;
@@ -42,7 +44,7 @@ public:
 
     string liberarColaEspera() override;
 
-
+    string obtenerEstadisticas() override;
 };
 
 

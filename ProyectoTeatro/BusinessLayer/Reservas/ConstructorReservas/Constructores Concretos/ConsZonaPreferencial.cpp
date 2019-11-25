@@ -4,7 +4,7 @@
 
 #include "ConsZonaPreferencial.h"
 
-ConsZonaPreferencial::ConsZonaPreferencial() {}
+ConsZonaPreferencial::ConsZonaPreferencial() : ConstructorAbstracto() {}
 
 void ConsZonaPreferencial::construirLocalidad() {
     getReserva().setLocalidad("Zona Preferencial");

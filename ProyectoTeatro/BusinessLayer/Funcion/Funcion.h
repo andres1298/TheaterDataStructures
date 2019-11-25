@@ -58,9 +58,17 @@ public:
 
     Reserva procesarSolicitudReserva(int pOpcion);
 
+    string procesarAgregarReserva(int pOpcion);
 
+    string procesarAgregarReserva(int pOpcion, int pAsiento);
 
+    string procesarPagarReserva(int pOpcion);
 
+    string procesarPagarReserva(int pOpcion, int pAsiento);
+
+    string iniciarObra();
+
+    double calcularRecaudacionTotal();
 };
 
 

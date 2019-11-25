@@ -44,6 +44,9 @@ public:
     string liberarReservaciones() override;
 
     string liberarColaEspera() override;
+
+    string obtenerEstadisticas() override;
+
 };
 
 

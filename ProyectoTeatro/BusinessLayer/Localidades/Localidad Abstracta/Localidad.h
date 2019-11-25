@@ -44,6 +44,8 @@ public:
 
     virtual string liberarColaEspera() = 0;
 
+    virtual string obtenerEstadisticas() = 0;
+
 };
 
 

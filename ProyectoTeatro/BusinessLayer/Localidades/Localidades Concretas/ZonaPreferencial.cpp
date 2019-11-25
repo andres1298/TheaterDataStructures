@@ -82,6 +82,25 @@ bool ZonaPreferencial::validarPagoReserva(int pAsiento) {
     return getCantidadPagada() <= getCantidadMaxima() && reservas[pAsiento - 1].getLocalidad() != "Vacio";
 }
 
+string ZonaPreferencial::obtenerEstadisticas() {
+    string informacion;
+    int recaudacionTotal = 0, espaciosLibres = 0, espaciosPagados = 0;
+
+    recaudacionTotal = getCantidadPagada() * 7000;
+    espaciosLibres = getCantidadMaxima() - getCantidadPagada();
+    espaciosPagados = getCantidadPagada();
+
+    informacion.append("\n    Zona Preferencial ");
+    informacion.append("\n============================");
+    informacion.append("\nEspacios disponibles: " + to_string(espaciosLibres));
+    informacion.append("\nEspacios pagados: " + to_string(espaciosPagados));
+    informacion.append("\nRecaudacion: " + to_string(recaudacionTotal));
+    informacion.append("\n============================");
+
+    return informacion;
+}
+
+
 /*
  * =================
  * FUNCIONES ESPECIFICAS
@@ -96,22 +115,43 @@ void ZonaPreferencial::llenarReservas() {
 
 string ZonaPreferencial::mostrarEspaciosDisponibles() {
     string informacion;
-    int posicion = 1;
-    if(validarEspacios()){
-        for(Reserva reserva: reservas){
-            if(! reserva.getLocalidad().compare("Vacio")){
-                informacion.append(to_string(posicion) + "  ");
-            }
-            posicion++;
+    int disponibles = 0;
+
+    for(int i = 0; i < getCantidadMaxima(); i++){
+        if(reservas[i].getLocalidad() == "Vacio"){
+            informacion.append(to_string(i + 1) + " ");
+            disponibles++;
         }
-        return informacion;
+    }
+    if(disponibles > 0){
+        string espaciosDisponibles = "\nEspacios disponibles: ";
+        espaciosDisponibles.append(informacion);
+        return espaciosDisponibles;
     }
     else{
-        return "La localidad se encuentra llena";
+        return "\nLocalidad llena";
     }
 }
 
+string ZonaPreferencial::mostrarReservasPorPagar() {
+    string informacion;
+    int disponibles = 0;
 
+    for(int i = 0; i < getCantidadMaxima(); i++){
+        if(reservas[i].getLocalidad() != "Vacio" &&  reservas[i].isPagada() == false){
+            informacion.append(to_string(i + 1) + " ");
+            disponibles++;
+        }
+    }
+    if(disponibles > 0){
+        string espaciosDisponibles = "\nEspacios por pagar: ";
+        espaciosDisponibles.append(informacion);
+        return espaciosDisponibles;
+    }
+    else{
+        return "\nNo hay reservas por pagar";
+    }
+}
 
 bool ZonaPreferencial::validarAsiento(int pAsiento) {
     if(pAsiento > 10 || pAsiento < 1){
@@ -177,5 +217,6 @@ string ZonaPreferencial::liberarColaEspera() {
 
     return "Se han agregado " + to_string(cantidad) + " reservaciones de la cola de espera a la Zona Preferencial";
 }
+
 
 

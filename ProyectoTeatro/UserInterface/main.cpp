@@ -8,7 +8,13 @@
 
 using namespace std;
 
-Funcion funcion = Funcion("NullPo", 10, 50, 50);
+Funcion funcion;
+
+/*
+ * =================
+ * MENUS
+ * =================
+ */
 
 void mostrarMenuPrincipal(){
     cout << "\n==========================" << endl;
@@ -36,36 +42,216 @@ void mostrarMenuReservacion(){
     cout << "Opcion: ";
 }
 
+/*
+ * =================
+ * LECTURA DATOS
+ * =================
+ */
+
 int obtenerOpcion(){
     int opcion = 0;
     cin >> opcion;
     return opcion;
 }
 
+/*
+ * =========================
+ * CONFIRMACION OPERACIONES
+ * =========================
+ */
+
+void mostrarEspaciosDisponiblesZonaPreferencial(){
+    cout << "\nSeleccione uno de los siguientes asientos:" << endl;
+    cout << funcion.getZonaPreferencial().mostrarEspaciosDisponibles() << endl;
+    cout << "\nOpcion: ";
+}
+
+void mostrarEspaciosPorPagarZonaPreferencial(){
+    cout << "\nSeleccione uno de los siguientes asientos:" << endl;
+    cout << funcion.getZonaPreferencial().mostrarReservasPorPagar() << endl;
+    cout << "\nOpcion: ";
+}
+
+bool confirmarCantidadReservas(int pCantidad){
+    int opcion = 0;
+    cout << "\nEsta seguro que desea " + to_string(pCantidad) + " reservaciones?\n";
+    cout << "1. Si" << endl;
+    cout << "2. No" << endl;
+    cout << "3. Salir" << endl;
+    cout << "Opcion:";
+
+    opcion = obtenerOpcion();
+
+    if(opcion == 1) {
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+bool confirmarPagoCantidadReservas(int pCantidad){
+    int opcion = 0;
+    cout << "\nEsta seguro que desea pagar " + to_string(pCantidad) + " reservaciones?\n";
+    cout << "1. Si" << endl;
+    cout << "2. No" << endl;
+    cout << "3. Salir" << endl;
+    cout << "Opcion:";
+
+    opcion = obtenerOpcion();
+
+    if(opcion == 1) {
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+/*
+ * ======================
+ * FUNCIONES PRINCIPALES
+ * ======================
+ */
+
 void liberarReservaciones(){
-    cout << "Liberando reservaciones" << endl;
+    cout << funcion.liberarReservaciones() << endl;
 }
 
 void iniciarFuncion(){
-    cout << "Iniciando funcion" << endl;
+    cout << "\n==========================" << endl;
+    cout << "      Recaudacion " + funcion.getNombreObra() << endl;
+    cout << "==========================\n" << endl;
+    cout << funcion.iniciarObra() << endl;
 }
 
 void mostrarUbicaciones(){
     cout << "Mostrando ubicaciones" << endl;
 }
 
-void procesarMenuPrincipal(int pOpcion){
-    int opcionMenuPrincipal;
-    switch ( pOpcion ){
-        case 1:
-            mostrarMenuReservacion();
-            opcionMenuPrincipal = obtenerOpcion();
+/*
+ * =====================
+ * PROCESAMIENTO DATOS
+ * =====================
+ */
 
+void procesarMenuReservacion(int pOpcion) {
+    int opcionMenuReservacion = 0;
+    int opcionSecundaria = 0;
+
+    switch (pOpcion) {
+        case 1:
+            {
+                mostrarEspaciosDisponiblesZonaPreferencial();
+                opcionSecundaria = obtenerOpcion();
+                cout << "\n" + funcion.procesarAgregarReserva(pOpcion, opcionSecundaria) << endl;
+            }
             break;
 
         case 2:
-            mostrarMenuReservacion();
-            opcionMenuPrincipal = obtenerOpcion();
+            {
+                cout << "\nDigite la cantidad de asientos que desea: ";
+                opcionMenuReservacion = obtenerOpcion();
+                if(confirmarCantidadReservas(opcionMenuReservacion)){
+                    for(int i = 0; i < opcionMenuReservacion; i++){
+                        cout << funcion.procesarAgregarReserva(pOpcion) << endl;
+                    }
+                }
+                else{
+                    cout << "\nGracias por su confirmacion" << endl;
+                }
+            }
+            break;
+
+        case 3:
+            {
+                cout << "\nDigite la cantidad de asientos que desea: ";
+                opcionMenuReservacion = obtenerOpcion();
+                if(confirmarCantidadReservas(opcionMenuReservacion)){
+                    for(int i = 0; i < opcionMenuReservacion; i++){
+                        cout << funcion.procesarAgregarReserva(pOpcion) << endl;
+                    }
+                }
+                else{
+                    cout << "\nGracias por su confirmacion" << endl;
+                }
+            }
+            break;
+
+        default:
+            break;
+
+    }
+}
+
+void procesarMenuPago(int pOpcion) {
+    int opcionMenuReservacion = 0;
+    int opcionSecundaria = 0;
+
+    switch (pOpcion) {
+        case 1:
+        {
+            mostrarEspaciosPorPagarZonaPreferencial();
+            opcionSecundaria = obtenerOpcion();
+            cout << "\n" + funcion.procesarPagarReserva(pOpcion, opcionSecundaria) << endl;
+        }
+            break;
+
+        case 2:
+        {
+            cout << "\nDigite la cantidad de asientos que desea pagar: ";
+            opcionMenuReservacion = obtenerOpcion();
+            if(confirmarPagoCantidadReservas(opcionMenuReservacion)){
+                for(int i = 0; i < opcionMenuReservacion; i++){
+                    cout << funcion.procesarPagarReserva(pOpcion) << endl;
+                }
+            }
+            else{
+                cout << "\nGracias por su confirmacion" << endl;
+            }
+        }
+            break;
+
+        case 3:
+        {
+            cout << "\nDigite la cantidad de asientos que desea pagar: ";
+            opcionMenuReservacion = obtenerOpcion();
+            if(confirmarPagoCantidadReservas(opcionMenuReservacion)){
+                for(int i = 0; i < opcionMenuReservacion; i++){
+                    cout << funcion.procesarPagarReserva(pOpcion) << endl;
+                }
+            }
+            else{
+                cout << "\nGracias por su confirmacion" << endl;
+            }
+        }
+            break;
+
+        default:
+            break;
+
+    }
+}
+
+void procesarMenuPrincipal(int pOpcion){
+    int opcionMenuPrincipal = 0;
+    switch ( pOpcion ){
+        case 1:
+            {
+                while(opcionMenuPrincipal != 4){
+                    mostrarMenuReservacion();
+                    opcionMenuPrincipal = obtenerOpcion();
+                    procesarMenuReservacion(opcionMenuPrincipal);
+                }
+            }
+            break;
+
+        case 2:
+            while(opcionMenuPrincipal != 4){
+                mostrarMenuReservacion();
+                opcionMenuPrincipal = obtenerOpcion();
+                procesarMenuPago(opcionMenuPrincipal);
+            }
             break;
 
         case 3:
@@ -74,6 +260,7 @@ void procesarMenuPrincipal(int pOpcion){
 
         case 4:
             iniciarFuncion();
+            cout << "\n\nLa obra ha finalizado. Muchas gracias por su preferencia\n";
             break;
 
         case 5:
@@ -90,66 +277,66 @@ void procesarMenuPrincipal(int pOpcion){
     }
 }
 
+/*
+ * =================
+ * NUEVA OBRA
+ * =================
+ */
 
+bool confirmarNuevaObra(){
+    int opcion = 0;
+    cout << "\nDesea iniciar una nueva obra?\n";
+    cout << "1. Si" << endl;
+    cout << "2. No" << endl;
+    cout << "3. Salir" << endl;
+    cout << "Opcion:";
+
+    opcion = obtenerOpcion();
+
+    if(opcion == 1) {
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+void crearNuevaObra(){
+    string nombreObra;
+    cout << "\n==========================" << endl;
+    cout << "Teatro Datos Estructurados" << endl;
+    cout << "==========================\n" << endl;
+    cout << "Digite el nombre de la obra del dia:";
+    cin >> nombreObra;
+
+    funcion = Funcion(nombreObra,10,50,50);
+}
+
+/*
+ * =================
+ * MENU PRINCIPAL
+ * =================
+ */
 
 int main() {
-    int opcion = 0;/*
-    while( opcion != 6){
+    int opcion = 0;
+
+    crearNuevaObra();
+
+    while( opcion != 6 && opcion != 4){
         mostrarMenuPrincipal();
         opcion = obtenerOpcion();
         procesarMenuPrincipal(opcion);
-
-    }*/
-    Reserva reserva1 = Reserva("Preferencial 1", 5000, false);
-    Reserva reserva2 = Reserva("Preferencial 2", 7000, false);
-
-    for(int i = 1; i <= 10; i++){
-        cout << funcion.getZonaPreferencial().agregarReserva(reserva1,i) << endl;
-        if(i % 2 == 0){
-            cout << funcion.getZonaPreferencial().pagarReserva(i) << endl;
-        }
     }
 
-    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
-
-    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
-
-    cout << funcion.liberarReservaciones() << endl;
-
-
+    if(opcion == 4){
+        if(confirmarNuevaObra()){
+            main();
+        }
+        else{
+            cout << "\nGracias por utilizar Datos Estructurados\n";
+        }
+    }
     return 0;
 }
 
-/*Reserva reserva1 = Reserva("Preferencial 1", 5000, false);
-
-    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaGeneral().agregarReserva(reserva1) << endl;
-    cout << "\n" << endl;
-    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
-    cout << funcion.getGraderiaPreferencial().agregarReserva(reserva1) << endl;
-    cout << "\n" << endl;
-    for(int i = 1; i <= 10; i++){
-        cout << funcion.getZonaPreferencial().agregarReserva(reserva1,i) << endl;
-    }
-    cout << "\n" << endl;
-    cout << funcion.getZonaPreferencial().agregarReserva(reserva1,10) << endl;
-
-    cout << funcion.getZonaPreferencial().liberarReservaciones() << endl;
-
-    for(int i = 1; i <= 10; i++){
-        cout << funcion.getZonaPreferencial().agregarReserva(reserva1,i) << endl;
-        if(i % 2 == 0){
-            funcion.getZonaPreferencial().pagarReserva(i);
-        }
-    }
-    */

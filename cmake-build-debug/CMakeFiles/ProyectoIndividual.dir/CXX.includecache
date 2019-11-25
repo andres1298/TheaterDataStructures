@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Funcion/Funcion.cpp
-Funcion.h
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Funcion/Funcion.h
-../Reservas/ConstructorReservas/Constructores Concretos/ConsZonaPreferencial.h
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsZonaPreferencial.h
-../Reservas/ConstructorReservas/Constructores Concretos/ConsGraderialPreferencial.h
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderialPreferencial.h
-../Reservas/ConstructorReservas/Constructores Concretos/ConsGraderiaGeneral.h
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderiaGeneral.h
-
 C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Funcion/Funcion.h
 string
 -
@@ -78,18 +68,6 @@ C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reser
 ../../Reserva Concreta/Reserva.h
 C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h
 
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderiaGeneral.h
-../Constructor Abstracto/ConstructorAbstracto.h
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor Abstracto/ConstructorAbstracto.h
-
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsGraderialPreferencial.h
-../Constructor Abstracto/ConstructorAbstracto.h
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor Abstracto/ConstructorAbstracto.h
-
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructores Concretos/ConsZonaPreferencial.h
-../Constructor Abstracto/ConstructorAbstracto.h
-C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor Abstracto/ConstructorAbstracto.h
-
 C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Director/DirectorConstruccion.h
 ../Constructor Abstracto/ConstructorAbstracto.h
 C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/ConstructorReservas/Constructor Abstracto/ConstructorAbstracto.h
@@ -99,6 +77,22 @@ C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reser
 C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h
 
 C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h
+string
+-
+
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/UserInterface/main.cpp
+iostream
+-
+../BusinessLayer/Reservas/Reserva Concreta/Reserva.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Reservas/Reserva Concreta/Reserva.h
+../BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaGeneral.h
+../BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/GraderiaPreferencial.h
+../BusinessLayer/Localidades/Localidades Concretas/ZonaPreferencial.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Localidades/Localidades Concretas/ZonaPreferencial.h
+../BusinessLayer/Funcion/Funcion.h
+C:/Users/andyb/Desktop/C++/ProyectoIndividual/ProyectoTeatro/BusinessLayer/Funcion/Funcion.h
 string
 -
 
